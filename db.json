@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Apply for jobs",
+      "deadline": "May 6th",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Update my resume",
+      "deadline": "May 4th before lunch",
+      "reminder": true
+    },
+    {
+      "text": "Print out important documents",
+      "deadline": "May 5th by the end of the day",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Pack my stuff ",
+      "deadline": "May 5th by the end of the day",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}
