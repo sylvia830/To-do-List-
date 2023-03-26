@@ -1,0 +1,58 @@
+:root {
+	--red: #f54e4e;
+	--green: #4aec8c;
+}
+.pomo {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* align items to the center */
+	justify-content: center; /* justify content to the center */
+	background-color: black;
+	height: 100vh;
+	flex-grow: 1;
+	padding-left: 50px;
+  }
+
+  .pomodoro-text {
+	align-self: flex-start;
+	justify-content: flex-start;
+	margin-top: -100px;
+	margin-left: 20px;
+  }
+  
+  .progressbar {
+	width: 250px;
+	height: 250px;
+  }
+
+  .button {
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.8);
+	border: 0;
+	display: inline-block;
+	width: 75px;
+	cursor: pointer;
+  }
+
+  .with-text {
+	width: auto;
+	background-color: rbga(255, 255, 255, 0.1);
+	border-radius: 10px;
+	padding: 10px 15px;
+	font-size: 1.2rem;
+	line-height: 36px;
+  }
+
+  button.with-text svg {
+	width: 36px;
+	float: left;
+	margin-right: 5px;
+  }
+
+  label {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-transform: capitalize;
+  }
+  
